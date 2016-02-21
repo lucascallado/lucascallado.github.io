@@ -33,7 +33,10 @@ github:
   repo:           github.com/joshualande/joshualande.github.io
 
 # This is the list of pages to incldue in the header of the website.
-pages_list:       ['About', 'Archive']
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
 
 # The directory for category index pages. Change it to something else if
 # for example you want links like /categories/category1 instead of /category1

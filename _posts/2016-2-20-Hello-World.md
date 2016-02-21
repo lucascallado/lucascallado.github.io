@@ -1,12 +1,7 @@
 ---
-layout: default
-title: Test for First Post!
+layout: page
+title: This is a page. Title.
+comments: true
 ---
 
-##Blog Posts
-
-#Where's the auto-complete as a built-in feature in Brakets?!?!
-
-#So, I need to start typing this things as an example of content on a page.
-
-#Bye Bye
+<h1>This is a page. H1</h1>
