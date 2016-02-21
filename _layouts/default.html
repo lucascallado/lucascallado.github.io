@@ -1,14 +1,34 @@
+<!doctype html>
+<html>
+    
 {% include head.html %}
 
-<h3 class="masthead-title">
-<a href="/" title="Home">{{ site.title }}</a>
+<body>
 
-{% for page in site.pages_list %}
-  &nbsp;&nbsp;&nbsp;
-  <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
-{% endfor %}
-</h3>
+    <div class="container content">
+      <div class="masthead">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">{{ site.title }}</a>
 
-{% include comments.html %}
+          {% for page_name in site.pages_list %}
+              &nbsp;&nbsp;&nbsp;<small><a href="/{{ page_name | downcase }}">{{ page_name }}</a></small>
+          {% endfor %}
 
-{% include footer.html %}
+        </h3>
+      </div>
+
+      {{ content }}
+
+      {% include comments.html %}
+        
+      {% include footer.html %}    
+
+      <div class="footer">
+        <p>
+          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+</body>
+</html>
