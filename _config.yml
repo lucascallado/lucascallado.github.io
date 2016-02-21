@@ -30,3 +30,5 @@ permalink: pretty
 # How many articles do you wish to appear on the front page:
 paginate: 3
 
+pages_list:       
+  Archive: '/archive'
