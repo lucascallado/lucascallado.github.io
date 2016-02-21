@@ -18,7 +18,10 @@ author:
 # If you use maroku (default engine) some of your generated pages may not validate or lint as html5
 # If you don't have it install it via gem install rdiscount
 # markdown: rdiscount
-markdown: kramdown
+#markdown: kramdown
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
 # How many articles do you wish to appear on the front page:
 paginate:         1
