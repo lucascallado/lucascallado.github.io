@@ -8,7 +8,7 @@ comments: true
 
 ## Quick markdown syntax
 
-More complete tutorial[here](/2016/02/18/MarkDown-Cheatsheet/)
+More complete tutorial [here](/2016/02/18/MarkDown-Cheatsheet/)
 
 *Italic*	_Italic_	Italic
 
