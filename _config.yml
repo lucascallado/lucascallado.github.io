@@ -15,7 +15,6 @@ author:
 
 # Dependencies
 markdown:         kramdown
-pygments:         rouge
 
 # How many articles do you wish to appear on the front page:
 paginate:         1
