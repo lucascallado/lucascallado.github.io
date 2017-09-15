@@ -20,7 +20,7 @@ author:
 # markdown: rdiscount
 #markdown: kramdown
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 pygments:         true
 
 # How many articles do you wish to appear on the front page:
