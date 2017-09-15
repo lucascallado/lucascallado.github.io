@@ -1,14 +1,20 @@
->	Regular Expressions Cheat Sheet
->		A regular expression specifies a set of strings that matches it. This cheat sheet is based off Python 3's Regular Expressions (http://docs.python.org/3/library/re.html) but is designed for searches within Sublime Text.
+---
+layout: page
+title: Regular Expressions Cheat Sheet
+comments: true
+---
+# Regular Expressions Cheat Sheet
 
->	Special Characters
+A regular expression specifies a set of strings that matches it. This cheat sheet is based off Python 3's Regular Expressions (http://docs.python.org/3/library/re.html) but is designed for searches within Sublime Text.
+
+Special Characters
 \				Escapes special characters or signals a special sequence.
 .				Matches any single character except a newline.
 ^				Matches the start of the string.
 $				Matches the end of the string.
-*				Greedily matches 0 or more repetitions of the preceding RE.
-*?				Matches 0 or more repetitions of the preceding RE.
-+				Greedily matches 1 or more repetitions of the preceding RE.
+\*				Greedily matches 0 or more repetitions of the preceding RE.
+\*?				Matches 0 or more repetitions of the preceding RE.
+\+				Greedily matches 1 or more repetitions of the preceding RE.
 +?				Matches 1 or more repetitions of the preceding RE.
 ?				Greedily matches 0 or 1 repetitions of the preceding RE.
 ??				Matches 0 or 1 repetitions of the preceding RE.
@@ -24,7 +30,7 @@ A|B				Matches A, if A is unmatched then matches B, where A and B are arbitrary 
 	[a\-z]				Matches 'a', '-', or 'z'.
 	[a-]				Matches 'a' or '-'.
 	[-a]				Matches 'a' or '-'.
-	[(+*)]				Matches '(', '+', '*', or ')'. [] matches special characters literally.
+	[(+\*)]				Matches '(', '+', '\*', or ')'. [] matches special characters literally.
 	[\w]				Matches the character class for '\w'. See character classes.
 	[^5]				Matches anything other than '5'. '^' forms the complementary set only as the first character in a set.
 	[]()]				Matches ']', '(', and ')'. ']' is taken literally only as the first character in a set.
@@ -39,12 +45,12 @@ A|B				Matches A, if A is unmatched then matches B, where A and B are arbitrary 
 	(?P=name)			Matches the substring matched by the group named name.
 	(?#...)				A comment, the contents are ignored.
 	(?=...)				Lookahead assertion, the preceding RE only matches if this matches.
-	(?!...)				Negative lookahead assestion, the preceding RE only matches if this doesn't match.
-	(?<=...)			Positive lookbehind assertion, the following RE will only match if preceeded with this fixed length RE.
-	(?<!...)			Negative lookbehind assertion, the following RE will only match if not preceeded with this fixed length RE.
+	(?!...)				Negative look ahead assestion, the preceding RE only matches if this doesn't match.
+	(?<=...)			Positive look behind assertion, the following RE will only match if preceeded with this fixed length RE.
+	(?<!...)			Negative look behind assertion, the following RE will only match if not preceeded with this fixed length RE.
 	(?(id)true|false)	If group id exists then uses the true RE, else use the false RE.
 
->	Character classes
+Character classes
 \1				Matches the contents of the group labelled by the same number. Acceptable numbers are 1-99.
 \A				Matches at the start of the current string.
 \b				Matches the empty string at the beginning or end of a word. \b matches the boundary between \w and \W.

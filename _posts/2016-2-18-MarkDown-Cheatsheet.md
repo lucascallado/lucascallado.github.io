@@ -1,11 +1,18 @@
->	Github Flavored Markdown Cheatsheet.
->		GFM is a variant of markdown developed by Github.
+---
+layout: page
+title: Markdown Cheatsheet
+comments: true
+---
+# Github Flavored Markdown Cheatsheet.
+
+## GFM is a variant of markdown developed by Github.
 https://help.github.com/articles/github-flavored-markdown
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
->	Plain Text
+Plain Text
 
->	Headings
+Headings
+
 	Header 1
 	========
 
@@ -19,13 +26,13 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 	##### H5
 	###### H6
 
->	Emphasis
+Emphasis
 	Emphasis (aka italics):		*asterisks* or _underscores_
 	Strong emphasis (aka bold):	**asterisks** or __underscores__
 	Combined emphasis:			**asterisks and _underscores_**
 	Strikethrough:				~~Scratch this.~~
 
->	Lists
+Lists
 	In this example, leading and trailing spaces are shown with with dots: .
 
 	1. First ordered list item
@@ -39,18 +46,18 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 	...To have a line break without a paragraph, you will need to use two trailing spaces...
 	...Note that this line is separate, but within the same paragraph...
-	...(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+	...(This is contrary to the typical GFM line break behavior, where trailing spaces are not required.)
 
 	* Unordered list can use asterisks
 	- Or minuses
 	+ Or pluses
 
 	In above \s means a "space" character
-	
+
 	- [ ] checkbox
 	- [x] checked checkbox
 
->	URLs
+URLs
 	There are two ways to create links.
 
 	[text](url)	Turn text into an URL.
@@ -78,12 +85,12 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 	[1]: http://slashdot.org
 	[link text itself]: http://www.reddit.com
 
->	Images
+Images
 	Inline-style:		![alt text](url "title")
 
 	Reference-style:	![alt text][logo]
 
->	Code Blocks
+Code Blocks
 	Markdown converts text with four spaces at the front of each line to code
 	blocks. GFM supports that, but we also support fenced blocks. Just wrap your
 	code blocks in ``` and you won't need to indent manually to trigger a code
@@ -103,7 +110,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 	But let's throw in a <b>tag</b>.
 	```
 
->	Syntax highlighting
+Syntax highlighting
 	Code blocks can be taken a step further to add syntax highlighting if you
 	request it. In your fenced block, add an optional language identifier and
 	it will run it through syntax highlighting. For example, to syntax highlight
@@ -119,7 +126,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 	detection and syntax highlighting. You can find out which keywords are valid
 	by perusing the languages YAML file [https://github.com/github/linguist/blob/master/lib/linguist/languages.yml].
 
->	Tables
+Tables
 	Tables aren't part of the core Markdown spec, but they are part of GFM and
 	Markdown Here supports them. They are an easy way of adding tables to your
 	email -- a task that would otherwise require copy-pasting from another application.
@@ -137,18 +144,18 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 	Markdown | Less | Pretty
 	--- | --- | ---
-	*Still* | `renders` | **nicely**
+	\*Still\* | `renders` | **nicely**
 	1 | 2 | 3
 
->	Blockquotes
-	> Blockquotes are very handy in email to emulate reply text.
-	> This line is part of the same quote.
+Blockquotes
+	Blockquotes are very handy in email to emulate reply text.
+	This line is part of the same quote.
 
 	Quote break.
 
-	> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+	This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
->	Inline html
+Inline html
 	You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 	<dl>
@@ -156,10 +163,10 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
   		<dd>Is something people use sometimes.</dd>
 
   		<dt>Markdown in HTML</dt>
-  		<dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  		<dd>Does \*not\* work **very** well. Use HTML <em>tags</em>.</dd>
 	</dl>
 
->	Horizontal Rule
+Horizontal Rule
 	Three or more...
 
 	---
@@ -169,12 +176,11 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 	***
 
 	Asterisks
-
 	___
 
 	Underscores
 
->	Line Breaks
+Line Breaks
 	My basic recommendation for learning how line breaks work is to experiment
 	and discover -- hit <Enter> once (i.e., insert one newline), then hit it
 	twice (i.e., insert two newlines), see what happens. You'll soon learn to
