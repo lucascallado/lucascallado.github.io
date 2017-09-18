@@ -30,19 +30,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 The next step is to create a default Google Analytics Tag in GTM. The Track Type should be **Event**. In addition to that, you will need to create specific variables to be used as parameters to configure the tag &#8212; Parameters are &#8220;Category&#8221;, &#8220;Action&#8221;, and &#8220;Label&#8221;.
 
-<a href="http://lucascallado.com/wp-content/uploads/2016/07/GTM-01.png" rel="lightbox[148]"><img class="size-medium wp-image-158 aligncenter" src="http://lucascallado.com/wp-content/uploads/2016/07/GTM-01-300x224.png" alt="GTM-01" width="300" height="224" srcset="http://lucascallado.com/wp-content/uploads/2016/07/GTM-01-300x224.png 300w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-01-768x573.png 768w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-01-1024x764.png 1024w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-01.png 1228w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href="/images/GTM-01.png" rel="lightbox[148]"><img class="size-medium wp-image-158 aligncenter" src="/images/GTM-01-300x224.png" alt="GTM-01" width="300" height="224" srcset="/images/GTM-01-300x224.png 300w, /images/GTM-01-768x573.png 768w, /images/GTM-01-1024x764.png 1024w, /images/GTM-01.png 1228w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
 These **Data Layer Variables** can be created as follows &#8212; one for each parameter (**category**, **action**, **label** &#8212; all lower case):
 
-<a href="http://lucascallado.com/wp-content/uploads/2016/07/GTM-09.png" rel="lightbox[148]"><img class="size-medium wp-image-159 aligncenter" src="http://lucascallado.com/wp-content/uploads/2016/07/GTM-09-300x173.png" alt="GTM-09" width="300" height="173" srcset="http://lucascallado.com/wp-content/uploads/2016/07/GTM-09-300x173.png 300w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-09-768x442.png 768w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-09.png 958w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href="/images/GTM-09.png" rel="lightbox[148]"><img class="size-medium wp-image-159 aligncenter" src="/images/GTM-09-300x173.png" alt="GTM-09" width="300" height="173" srcset="/images/GTM-09-300x173.png 300w, /images/GTM-09-768x442.png 768w, /images/GTM-09.png 958w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
 The next step is to create a **Trigger** for the Event
 
-<a href="http://lucascallado.com/wp-content/uploads/2016/07/GTM-02.png" rel="lightbox[148]"><img class="size-medium wp-image-160 aligncenter" src="http://lucascallado.com/wp-content/uploads/2016/07/GTM-02-300x163.png" alt="GTM-02" width="300" height="163" srcset="http://lucascallado.com/wp-content/uploads/2016/07/GTM-02-300x163.png 300w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-02-768x418.png 768w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-02.png 1022w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href="/images/GTM-02.png" rel="lightbox[148]"><img class="size-medium wp-image-160 aligncenter" src="/images/GTM-02-300x163.png" alt="GTM-02" width="300" height="163" srcset="/images/GTM-02-300x163.png 300w, /images/GTM-02-768x418.png 768w, /images/GTM-02.png 1022w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
 Choose &#8220;**Custom Event**&#8220;. I recommend using the same **Title** for **Trigger Name** and **Event Name**. In my case, **Event-NAME-Here**
 
-<a href="http://lucascallado.com/wp-content/uploads/2016/07/GTM-03.png" rel="lightbox[148]"><img class="size-medium wp-image-154 aligncenter" src="http://lucascallado.com/wp-content/uploads/2016/07/GTM-03-300x158.png" alt="GTM-03" width="300" height="158" srcset="http://lucascallado.com/wp-content/uploads/2016/07/GTM-03-300x158.png 300w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-03-768x404.png 768w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-03-1024x539.png 1024w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-03.png 1028w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href="/images/GTM-03.png" rel="lightbox[148]"><img class="size-medium wp-image-154 aligncenter" src="/images/GTM-03-300x158.png" alt="GTM-03" width="300" height="158" srcset="/images/GTM-03-300x158.png 300w, /images/GTM-03-768x404.png 768w, /images/GTM-03-1024x539.png 1024w, /images/GTM-03.png 1028w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
 Now, you will see your new Trigger associated to your new Google Analytics Tag. Go ahead and **Save** your tag.
 
@@ -50,19 +50,19 @@ You have completed all the steps on Google Tag Manager. Let&#8217;s jump to Goog
 
 Go to Google Analytics Admin &#8212; on a View that you want to setup this Goal.
 
-<a href="http://lucascallado.com/wp-content/uploads/2016/07/GTM-04.png" rel="lightbox[148]"><img class="size-full wp-image-153 aligncenter" src="http://lucascallado.com/wp-content/uploads/2016/07/GTM-04.png" alt="GTM-04" width="246" height="132" /></a>
+<a href="/images/GTM-04.png" rel="lightbox[148]"><img class="size-full wp-image-153 aligncenter" src="/images/GTM-04.png" alt="GTM-04" width="246" height="132" /></a>
 
 Hit +New Goal
 
-<a href="http://lucascallado.com/wp-content/uploads/2016/07/GTM-05.png" rel="lightbox[148]"><img class="size-medium wp-image-152 aligncenter" src="http://lucascallado.com/wp-content/uploads/2016/07/GTM-05-267x300.png" alt="GTM-05" width="267" height="300" srcset="http://lucascallado.com/wp-content/uploads/2016/07/GTM-05-267x300.png 267w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-05.png 685w" sizes="(max-width: 267px) 100vw, 267px" /></a>
+<a href="/images/GTM-05.png" rel="lightbox[148]"><img class="size-medium wp-image-152 aligncenter" src="/images/GTM-05-267x300.png" alt="GTM-05" width="267" height="300" srcset="/images/GTM-05-267x300.png 267w, /images/GTM-05.png 685w" sizes="(max-width: 267px) 100vw, 267px" /></a>
 
 Select &#8220;**Custom**&#8221;
 
-<a href="http://lucascallado.com/wp-content/uploads/2016/07/GTM-06.png" rel="lightbox[148]"><img class="size-medium wp-image-151 aligncenter" src="http://lucascallado.com/wp-content/uploads/2016/07/GTM-06-300x207.png" alt="GTM-06" width="300" height="207" srcset="http://lucascallado.com/wp-content/uploads/2016/07/GTM-06-300x207.png 300w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-06-230x160.png 230w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-06.png 687w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href="/images/GTM-06.png" rel="lightbox[148]"><img class="size-medium wp-image-151 aligncenter" src="/images/GTM-06-300x207.png" alt="GTM-06" width="300" height="207" srcset="/images/GTM-06-300x207.png 300w, /images/GTM-06-230x160.png 230w, /images/GTM-06.png 687w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
 Enter the **Goal Name** and Selec Type &#8220;**Event**&#8221;
 
-<a href="http://lucascallado.com/wp-content/uploads/2016/07/GTM-07.png" rel="lightbox[148]"><img class="size-medium wp-image-150 aligncenter" src="http://lucascallado.com/wp-content/uploads/2016/07/GTM-07-300x284.png" alt="GTM-07" width="300" height="284" srcset="http://lucascallado.com/wp-content/uploads/2016/07/GTM-07-300x284.png 300w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-07.png 701w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href="/images/GTM-07.png" rel="lightbox[148]"><img class="size-medium wp-image-150 aligncenter" src="/images/GTM-07-300x284.png" alt="GTM-07" width="300" height="284" srcset="/images/GTM-07-300x284.png 300w, /images/GTM-07.png 701w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
 Now you will have to define the &#8220;**Category Name**&#8220;, &#8220;**Action Name**&#8220;, and &#8220;**Label Name**&#8220;. This will be used on the **dataLayer** structure that is built through the JavaScript on the **Conversion Page**.
 
@@ -102,6 +102,6 @@ Note: If everything is working as expected your Goal will show up on Google Ana
 
 **Event Category** and **Event Action** will match with the information submitted by the **dataLayer.push** after the form gets submitted.
 
-<a href="http://lucascallado.com/wp-content/uploads/2016/07/GTM-10.png" rel="lightbox[148]"><img class="size-medium wp-image-161 aligncenter" src="http://lucascallado.com/wp-content/uploads/2016/07/GTM-10-300x89.png" alt="GTM-10" width="300" height="89" srcset="http://lucascallado.com/wp-content/uploads/2016/07/GTM-10-300x89.png 300w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-10-768x228.png 768w, http://lucascallado.com/wp-content/uploads/2016/07/GTM-10.png 832w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href="/images/GTM-10.png" rel="lightbox[148]"><img class="size-medium wp-image-161 aligncenter" src="/images/GTM-10-300x89.png" alt="GTM-10" width="300" height="89" srcset="/images/GTM-10-300x89.png 300w, /images/GTM-10-768x228.png 768w, /images/GTM-10.png 832w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
 &nbsp;
