@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'Ruby and Jekyll &#8212; A new journey part 1'
+title: 'Ruby and Jekyll &#8212; A new journey'
 author: Lucas Callado
 categories:
   - Web Development
 ---
 
-# Ruby and Jekyll &#8212; A new journey part 1
+# Ruby and Jekyll &#8212; A new journey
 
 ## Lately I&#8217;ve been learning a lot about a new stack &#8212; Ruby, Node.js, Python, and Jekyll&#8230; and I wanted to share a few tips on how I got my system ready for development. For this specific environment I&#8217;m using OS X. Here is my installation log &#8212; step-by-step:
 

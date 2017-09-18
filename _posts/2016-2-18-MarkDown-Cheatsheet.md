@@ -87,7 +87,6 @@ URLs
 	[link text itself]: http://www.reddit.com
 
 Images
-	Inline-style:		![alt text](url "title")
 
 	Reference-style:	![alt text][logo]
 

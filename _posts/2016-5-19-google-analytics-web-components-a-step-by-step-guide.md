@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'Google Web Components a Polymer approach — A step-by-step guide Part 2'
+title: 'Google Web Components a Polymer approach — A step-by-step guide'
 author: Lucas Callado
 categories:
   - Web Development
 ---
-# Google Web Components a Polymer approach — A step-by-step guide Part 2
+# Google Web Components a Polymer approach — A step-by-step guide
 
 ## This post is to explain how to obtain a Google API &#8212; Client ID &#8212; to run the Google Web Components utilizing the Polymer code.
 
