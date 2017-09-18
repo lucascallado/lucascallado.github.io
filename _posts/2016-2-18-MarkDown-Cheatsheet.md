@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Markdown Cheatsheet
 comments: true
+author: Lucas Callado
 ---
 # Github Flavored Markdown Cheatsheet.
 

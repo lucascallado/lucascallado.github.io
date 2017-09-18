@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Regular Expressions Cheat Sheet
 comments: true
+author: Lucas Callado
 ---
 # Regular Expressions Cheat Sheet
 

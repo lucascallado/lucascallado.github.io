@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Another Post
 comments: true
+author: Lucas Callado
 ---
 
 #Adding Image

@@ -1,8 +1,8 @@
 # Setup
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
-title:            LucasCallado.GitHub.io
-name:             LucasCallado.GitHub.io
-tagline:          'Full Stack Web Developer'
+title:            Lucas Callado | Blog
+name:             Lucas Callado | Blog
+tagline:          'Full Stack Web Development -- Best Practices Coding'
 # Short description (goes below the title; it will also be used in the RSS feed)
 description:      'Base Jekyll Blog on GitHub'
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.

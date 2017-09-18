@@ -3,6 +3,11 @@ layout: default
 title: Lucas Callado
 ---
 
+{% for post in site.posts %}
+  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+{% endfor %}
+
+<!---
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -11,14 +16,11 @@ title: Lucas Callado
         {{ post.title }}
       </a>
     </h1>
-
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
     {{ post.content }}
   </div>
   {% endfor %}
 </div>
-
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
@@ -35,3 +37,4 @@ title: Lucas Callado
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+--->
