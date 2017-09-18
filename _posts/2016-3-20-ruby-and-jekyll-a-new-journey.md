@@ -3,7 +3,7 @@ layout: post
 title: 'Ruby and Jekyll &#8212; A new journey'
 author: Lucas Callado
 categories:
-  - Web Development
+  - Web-Development
 ---
 
 # Ruby and Jekyll &#8212; A new journey

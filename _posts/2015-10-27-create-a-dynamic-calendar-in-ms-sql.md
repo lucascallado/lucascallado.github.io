@@ -3,7 +3,7 @@ layout: post
 title: 'Create a dynamic calendar in MS SQL'
 author: Lucas Callado
 categories:
-  - 'Database - SQL'
+  - Database
 ---
 # Create a dynamic calendar in MS SQL
 

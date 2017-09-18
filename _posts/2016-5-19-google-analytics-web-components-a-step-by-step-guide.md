@@ -3,7 +3,7 @@ layout: post
 title: 'Google Web Components a Polymer approach — A step-by-step guide'
 author: Lucas Callado
 categories:
-  - Web Development
+  - Web-Development
 ---
 # Google Web Components a Polymer approach — A step-by-step guide
 

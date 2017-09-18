@@ -4,7 +4,7 @@ title: 'URL re-writing: Tips for .htaccess file'
 comments: true
 author: Lucas Callado
 categories:
-  - Web Development
+  - Web-Development
 ---
 .htaccess
 

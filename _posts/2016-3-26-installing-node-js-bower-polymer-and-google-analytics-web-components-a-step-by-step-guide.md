@@ -3,7 +3,7 @@ layout: post
 title: 'Installing Node.js, Bower, Polymer, and Google Analytics Web Components &#8212; A step-by-step guide'
 author: Lucas Callado
 categories:
-  - Web Development
+  - Web-Development
 ---
 # Installing Node.js, Bower, Polymer, and Google Analytics Web Components &#8212; A step-by-step guide
 

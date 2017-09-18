@@ -3,7 +3,7 @@ layout: post
 title: 'Search Engine Optimization &#8211; Quick guide &#038; Best practices'
 author: Lucas Callado
 categories:
-  - Web Development
+  - Web-Development
 ---
 # Search Engine Optimization &#8211; Quick guide &#038; Best practices
 

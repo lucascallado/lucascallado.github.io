@@ -3,8 +3,7 @@ layout: post
 title: 'Tracking Google Analytics Goals using dataLayer on Google Tag Manager'
 author: Lucas Callado
 categories:
-  - JavaScript
-  - Web Development
+  - Web-Development
 ---
 # Tracking Google Analytics Goals using dataLayer on Google Tag Manager
 
