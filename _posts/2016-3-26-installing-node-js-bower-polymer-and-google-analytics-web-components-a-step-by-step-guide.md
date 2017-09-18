@@ -51,7 +51,7 @@ Install Google Analytics &#8212;- Web Components
 
 After everything is install your folder should look like this:
 
-<a href="http://lucascallado.com/wp-content/uploads/2016/01/ga.png"  rel="lightbox[89] attachment wp-att-90"><img class="alignnone size-medium wp-image-90" src="http://lucascallado.com/wp-content/uploads/2016/01/ga-300x167.png" alt="ga" width="300" height="167" srcset="http://lucascallado.com/wp-content/uploads/2016/01/ga-300x167.png 300w, http://lucascallado.com/wp-content/uploads/2016/01/ga.png 544w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href="/images/ga.png"  rel="lightbox[89] attachment wp-att-90"><img class="alignnone size-medium wp-image-90" src="/images/ga-300x167.png" alt="ga" width="300" height="167" srcset="/images/ga-300x167.png 300w, /images/ga.png 544w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
 Here is a sample code for a Google Analytics data:
 
